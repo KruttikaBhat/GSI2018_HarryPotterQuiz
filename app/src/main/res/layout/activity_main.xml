@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.harrypotterquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="@string/belowtitle"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/Q1"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/Q1RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Q1aRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q1a"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Q1bRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q1b"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Q1cRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q1c"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Q1dRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q1d"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/Q2"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/Q2aCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q2a"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q2bCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q2b"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q2cCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q2c"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q2dCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q2d"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q2eCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q2e"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/Q3"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/Q3aCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q3a"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q3bCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q3b"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q3cCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q3c"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Q3dCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/Q3d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/Q4"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/crookshanks" />
+
+        <EditText
+            android:id="@+id/Q4EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/Q4Hint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/Q5"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/Q5RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Q5aRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q5a"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Q5bRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q5b"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Q5cRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q5c"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Q5dRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/Q5d"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+
+    </LinearLayout>
+</ScrollView>

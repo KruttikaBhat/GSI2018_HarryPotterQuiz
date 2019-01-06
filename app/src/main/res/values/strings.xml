@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Harry Potter Quiz</string>
+    <string name="title">Harry Potter Trivia</string>
+    <string name="belowtitle">Test your knowledge!</string>
+    <string name="Q1">1) What creatures feed on positive human emotions?</string>
+    <string name="Q1a">Mermaids</string>
+    <string name="Q1b">Dementors</string>
+    <string name="Q1c">Boggarts</string>
+    <string name="Q1d">Grindylows</string>
+    <string name="Q2">2) Who among the following were part of the six Harrys\'?</string>
+    <string name="Q2a">Fleur Delacour</string>
+    <string name="Q2b">Hagrid</string>
+    <string name="Q2c">Luna Lovegood</string>
+    <string name="Q2d">Mundungus Fletcher</string>
+    <string name="Q2e">Fred Weasley</string>
+    <string name="Q3">3) Which of the following posts has Albus Dumbledore held?</string>
+    <string name="Q3a">Supreme Mugwump</string>
+    <string name="Q3b">Head of the department of international magical cooperation</string>
+    <string name="Q3c">Chief warlock of the wizengamot</string>
+    <string name="Q3d">Professor of transfiguration at Hogwarts</string>
+    <string name="Q4">4) Identify this character</string>
+    <string name="Q4Hint">Eg:Lilly</string>
+    <string name="Q5">5) Who took offence at the symbol Xenophilius Lovegood wears at Bill and Fleur\'s wedding</string>
+    <string name="Q5a">Aunt Muriel</string>
+    <string name="Q5b">Arthur Weasley</string>
+    <string name="Q5c">Rubeus Hagrid</string>
+    <string name="Q5d">Victor Krum</string>
+    <string name="Submit">Get Score</string>
+</resources>
